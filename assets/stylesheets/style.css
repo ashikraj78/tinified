@@ -1,0 +1,156 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* design */
+*{ 
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro', sans-serif;
+    color:#AAACB7;
+    line-height: 1.5;
+}
+body{
+    background-image: url(../media/bg.jpg);
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.avatar{
+    margin-top: 100px;
+    text-align: center;
+} 
+.avatar img{
+    border-radius: 50%;
+    margin-bottom: 50px;
+    border: 1px solid rgb(149, 150, 151);
+    padding:15px;
+    /* box-shadow: 0px 0px 5px 1px grey; */
+    background: #413C5C;
+
+}
+.avatar p{
+    font-size: 36px;
+    font-weight: 100;
+    padding: 0 96px;
+    
+}
+.avatar p a{
+    text-decoration: none;
+    color:#AAACB7;
+}
+
+/* social media */
+
+.socialmedia{
+    text-align: center;
+    padding: 20px 0;
+}
+/* Style all font awesome icons */
+.fa {
+    padding: 16px;
+    font-size: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    border: 1px solid #AAACB7 ;
+    margin: 8px;
+    height: 50px;
+    width: 50px;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  .fa-twitter, .fa-facebook  {
+    color: #AAACB7;
+}
+
+/* gallery */
+
+.gallery{
+    float: left;
+    width: 30%;
+    margin: 1.66%;
+}
+.gallery img{
+    width: 100%;
+    border-radius:10px 10px 0px 0px;
+}
+.gallerybox{
+    padding-bottom: 10px;
+    border: 1px solid #AAACB7;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.gallerybox h2{
+    padding: 10px 0;
+}
+.gallerybox:hover{
+    box-shadow: 0px 0px 5px 1px rgba(248, 18, 145, 0.651);
+}
+
+/* clearfix */
+.cf::before,
+.cf::after{
+    content: "";
+    display: table;
+}
+.cf::after{
+    clear: both;
+}
+
+
+/*  footer */
+.footer{
+    margin: 160px 100px 120px 100px;
+    text-align: center;
+}
